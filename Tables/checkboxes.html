@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prekių užsakymo - pristatymo forma</title>
+</head>
+<body>
+    <h2>Prekių užsakymo forma</h2>
+    <form>
+        <fieldset>
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" name="name" minlength="1">
+        <br>
+        <br>
+            <label for="surname">Enter your surname</label>
+            <input type="text" id="surname" name="surname" minlength="1">
+        <br> 
+        <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        <br>
+        <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        <br>
+        <br>
+            <fieldset>
+                <legend>Pristatymo informacija</legend>
+                <label for="street">Street</label>
+                <input type="text" id="street"/>
+                <br/>
+                <label for="number">House number</label>
+                <input type="number" id="number"/>
+                <br/>
+                <label for="city">Select city:</label>
+                <select name="city" id="city">
+                    <option value="">--Please select your city--</option>
+                    <option value="Kaunas">Kaunas</option>
+                    <option value="Vilnius">Vilnius</option>
+                    <option value="Ryga">Ryga</option>
+                    <option value="Utena">Utena</option>
+                </select>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Payment method</legend>
+                <div>
+                    <label for="payment">Card</label>
+                    <input type="radio" name="payment" id="payment">
+                </div>
+                <div>
+                    <label for="payment">Cash</label>
+                    <input type="radio" name="payment" id="payment">
+                </div>
+                <div>
+                    <label for="payment">Apple pay</label>
+                    <input type="radio" name="payment" id="payment">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose your gift</legend>
+                <div>
+                    <label for="ring">ring</label>
+                    <input type="checkbox" id="ring" name="ring">
+                </div>
+                <div>
+                    <label for="earrings">earrings</label>
+                    <input type="checkbox" id="earrings" name="earrings">
+                </div>
+                <div>
+                    <label for="bracelet">bracelet</label>
+                    <input type="checkbox" id="bracelet" name="bracelet" >
+                </div>
+
+            </fieldset>
+                <fieldset>
+                    <label for="story">Tell us your ideas</label>
+                    <textarea id="story" name="story" rows="6" cols="30" disabled></textarea>
+                </fieldset>
+        </fieldset>
+        <button class="order" type="button">Order</button>
+    </form>
+</body>
+</html>
