@@ -1,0 +1,30 @@
+nav {
+    background-color: pink;
+}
+
+nav a {
+    color: white;
+}
+
+/* Kai pelė užvedama ant nuorodos */
+nav a:hover {
+    color: yellow;
+}
+
+/* Kai nuoroda jau buvo aplankyta */
+nav a:visited {
+    color: purple;
+}
+
+
+.first {
+    color: aqua;
+}
+
+.a_2:hover {
+    color: brown;
+}
+
+.tableMiau {
+    background-color: bisque;
+}
