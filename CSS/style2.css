@@ -1,0 +1,59 @@
+.highlight {
+    color: orange;
+}
+
+h2 {
+    color: greenyellow;
+}
+
+li {
+    color: blue;
+    text-decoration: underline;
+    
+}
+li:hover {
+    color: aqua;
+}
+
+ul ul li::marker {
+    color: orange;
+}
+
+.LocationTopic {
+    font-weight: bold;
+}
+
+.city {
+    color: blue;
+}
+
+.topic {
+    color: plum;
+}
+
+.namee {
+    color: orangered;
+}
+
+#Email {
+    color: orangered;
+}
+
+.LocationLabel {
+    color: orangered;
+}
+
+#Gender {
+    color: orangered;
+}
+.woman {
+    color: orangered;
+}
+
+.man {
+    color: orangered;
+}
+
+.experience {
+    color: orangered;
+}
