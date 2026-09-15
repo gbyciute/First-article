@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1;
+}
+
+/* ---------------- HEADER ---------------- */
+
+.header {
+    height: 90px;
+    background-color: #718ee0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* ---------------- TOP ---------------- */
+
+.top {
+    height: 390px;
+    display: flex;
+    /* Elementai eina vienas šalia kito */
+    flex-direction: row;
+}
+
+/* ---------------- LEFT ---------------- */
+.left {
+    width: 60%;
+
+    /* FLEX */
+    display: flex;
+
+    /* navigation ir extra-content eina vienas po kitu */
+    flex-direction: column;
+}
+
+
+/* Navigation užima didesnę dalį */
+.navigation {
+    height: 290px;
+
+    background-color: #d958a8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+}
+
+
+/* Extra Content */
+.extra-content {
+    height: 100px;
+    background-color: #7bcfd0;
+: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+}
+
+
+/* ---------------- RIGHT ---------------- */
+
+.right {
+    width: 40%;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+/* Hero */
+.hero {
+    height: 100px;
+
+    background-color: #df6274;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+}
+
+
+/* Sidebar */
+.sidebar {
+    height: 290px;
+
+    background-color: #bd4bd7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+}
+
+
+/* ---------------- BOTTOM ---------------- */
+
+.bottom {
+    height: 100px;
+
+    display: flex;
+
+    flex-direction: row;
+}
+
+
+/* Related Posts */
+.related-posts {
+    width: 36%;
+
+    background-color: #c9db70;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+}
+
+
+/* Image Related */
+.image-related {
+    width: 64%;
+
+    background-color: #70d47e;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+}
+
+
+/* ---------------- FOOTER ---------------- */
+
+.footer {
+    height: 100px;
+
+    background-color: #d6bb73;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+}
