@@ -1,0 +1,31 @@
+* {box-sizing: border-box;}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "header header header header" "jonas jonas . aside" "footer footer footer footer";
+}
+
+
+header {
+    grid-area: 1 / 1 / 2 / 5;
+    background-color: rgb(150, 20, 122);
+}
+
+main {
+    grid-area: 3 / 1 / 2 / 3;
+    background-color: rgb(26, 110, 189);
+}
+
+
+sidebar {
+    grid-area: 3 / 1 / 4 / 5;
+    background-color: rgb(155, 25, 36);
+}
+
+footer {
+    grid-area: 4 / 3 / 4 / 5;
+    background-color: darkgreen;
+}
